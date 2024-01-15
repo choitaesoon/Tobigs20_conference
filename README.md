@@ -3,7 +3,7 @@
 
 투빅스 20기 Time_Series 프로젝트로 시장 매력도를 통해 소상공인을 도와주기 위한 상품 시계열 예측 프로젝트를 진행했습니다.
 
-![][투빅스_컨퍼런스17회_시계열1조.pdf](https://github.com/choitaesoon/Tobigs20_conference/files/13938833/_.17._.1.pdf)
+![1](https://github.com/choitaesoon/Tobigs20_conference/assets/113870266/33818a15-eb74-4378-8ec7-c510be79fd73)
 
 크게 시계열을 활용한 미래 예측과 DA(Domain Adaptation)을 이용한 예측으로 분석을 진행했습니다.
 시계열 예측에는 기본 baseline model로
@@ -17,7 +17,7 @@ DA에서는 LSTM을 활용하여 모델을 새롭게 정의했습니다.
 ## 발표 🙋
 
 컨퍼런스 발표 ppt입니다. 자세한 분석 내용은 아래 링크를 통해 확인해주세요!  
-- [Slide](https://docs.google.com/viewer?url=https://github.com/choitaesoon/Tobigs19-conference/blob/main/%EA%B9%A8%EB%81%97%ED%95%9C%EA%B8%B0%EC%82%AC%EB%A7%8C%EB%93%A4%EA%B8%B0_%EC%9E%90%EC%97%B0%EC%9D%B8%EC%9D%B4%EB%8B%A4.pdf?raw=T)
+- [Slide][투빅스_컨퍼런스17회_시계열1조.pdf](https://github.com/choitaesoon/Tobigs20_conference/files/13938833/_.17._.1.pdf)
 
 
 ## 멤버 🧑‍🤝‍🧑
