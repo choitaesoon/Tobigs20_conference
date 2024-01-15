@@ -64,6 +64,6 @@ DA에서는 LSTM을 활용하여 모델을 새롭게 정의했습니다.
 5. making library
 
 ## 참고 자료
-[https://today-1.tistory.com/60]https://today-1.tistory.com/60  
+https://today-1.tistory.com/60  
 [https://github.com/Huffon/klue-transformers-tutorial.git](https://github.com/cure-lab/LTSF-Linear)
 
