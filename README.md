@@ -35,33 +35,33 @@ DA에서는 LSTM을 활용하여 모델을 새롭게 정의했습니다.
 
 ## 내용 정리
 
-### Data load
-1. LG-Aimers data
-  1-1. sales_cnt
-  1-2. sales_prc
-  1-3. brand_keyword_cnt
+### Data load  
+1. LG-Aimers data  
+  1-1. sales_cnt  
+  1-2. sales_prc  
+  1-3. brand_keyword_cnt  
 
-### time_series model
-1. LSTM
-2. LTSF-DLinear
-3. parameter
-  3-1. window_size = 30
-  3-2. forcast_size = 10
-  3-3. batch_size = 32
-  3-4. MSELoss
-  3-5. Adam optimizer
-
-### DA(domain adaptation)
-1. DA(Domain Adaptation)
-   1-1. ADDA(Adversarial Discriminative Domain Adaptation) model
-   1-2. LSTM(Source model = CNN -> LSTM)
-2. parameter
-  2-1. window_size = 100
-  2-2. forcast_size = 50
-  2-3. learning_rate = 0.001
-  2-4. epoch = 300
-  2-5. MSELoss (+Reconstruction Loss)
-  2-6. Adam optimizer
+### time_series model  
+1. LSTM  
+2. LTSF-DLinear  
+3. parameter  
+  3-1. window_size = 30  
+  3-2. forcast_size = 10  
+  3-3. batch_size = 32  
+  3-4. MSELoss  
+  3-5. Adam optimizer  
+  
+### DA(domain adaptation)  
+1. DA(Domain Adaptation)  
+   1-1. ADDA(Adversarial Discriminative Domain Adaptation) model  
+   1-2. LSTM(Source model = CNN -> LSTM)  
+2. parameter  
+  2-1. window_size = 100  
+  2-2. forcast_size = 50  
+  2-3. learning_rate = 0.001  
+  2-4. epoch = 300  
+  2-5. MSELoss (+Reconstruction Loss)  
+  2-6. Adam optimizer  
 
 
 ## 참고 자료
