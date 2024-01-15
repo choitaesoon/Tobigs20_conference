@@ -17,8 +17,7 @@ DA에서는 LSTM을 활용하여 모델을 새롭게 정의했습니다.
 ## 발표 🙋
 
 컨퍼런스 발표 ppt입니다. 자세한 분석 내용은 아래 링크를 통해 확인해주세요!  
-- [Slide][투빅스_컨퍼런스17회_시계열1조.pdf](https://github.com/choitaesoon/Tobigs20_conference/files/13938833/_.17._.1.pdf)
-
+- [Slide](https://docs.google.com/viewer?url=https://github.com/choitaesoon/Tobigs19-conference/files/13938902/tobigs20_conference_time_series.pdf?raw=True)
 
 ## 멤버 🧑‍🤝‍🧑
 
