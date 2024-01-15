@@ -3,7 +3,7 @@
 
 투빅스 20기 Time_Series 프로젝트로 시장 매력도를 통해 소상공인을 도와주기 위한 상품 시계열 예측 프로젝트를 진행했습니다.
 
-![](https://github.com/choitaesoon/Tobigs19-conference/assets/113870266/bbe65eb5-9e0c-4163-95b1-fbe8574e7d4d)
+![][투빅스_컨퍼런스17회_시계열1조.pdf](https://github.com/choitaesoon/Tobigs20_conference/files/13938833/_.17._.1.pdf)
 
 크게 시계열을 활용한 미래 예측과 DA(Domain Adaptation)을 이용한 예측으로 분석을 진행했습니다.
 시계열 예측에는 기본 baseline model로
