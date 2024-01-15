@@ -36,32 +36,33 @@ DA에서는 LSTM을 활용하여 모델을 새롭게 정의했습니다.
 ## 내용 정리
 
 ### Data load
-1. consider both text classification and topic modeling
-2. text classification with KoBERT  
-   2-1. sentence transform  
-   2-2. BERTDataset  
-   2-3. BERTClassifier  
-   2-4. Class and predict label  
-3. Topic Modeling with KoBERTopic  
-   3-1. Embed Document  
-   3-2. UMAP(decomposition)  
-   3-3. HDBSCAN(clsutering)  
-   3-4. TF-IDF   
-4. making library  
+1. LG-Aimers data
+  1-1. sales_cnt
+  1-2. sales_prc
+  1-3. brand_keyword_cnt
 
 ### time_series model
-1. consider both title and content
-2. title : learning clickbaitClass
-3. content : textRank + ko-BART + Jaccard Similarity
-4. model : FNN model(title_prob + content_prob)
-5. making library
+1. LSTM
+2. LTSF-DLinear
+3. parameter
+  3-1. window_size = 30
+  3-2. forcast_size = 10
+  3-3. batch_size = 32
+  3-4. MSELoss
+  3-5. Adam optimizer
 
 ### DA(domain adaptation)
-1. news data & factcheck data crawling
-2. crawling data preprocessing(summerization + labeling)
-3. STS + NLI model(by KLUE & roBERTa)
-4. final sentence and judgment of T/F about news
-5. making library
+1. DA(Domain Adaptation)
+   1-1. ADDA(Adversarial Discriminative Domain Adaptation) model
+   1-2. LSTM(Source model = CNN -> LSTM)
+2. parameter
+  2-1. window_size = 100
+  2-2. forcast_size = 50
+  2-3. learning_rate = 0.001
+  2-4. epoch = 300
+  2-5. MSELoss (+Reconstruction Loss)
+  2-6. Adam optimizer
+
 
 ## 참고 자료
 https://today-1.tistory.com/60  
