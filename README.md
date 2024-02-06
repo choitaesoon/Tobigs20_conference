@@ -68,13 +68,15 @@ DA에서는 LSTM을 활용하여 모델을 새롭게 정의했습니다.
 
 ## 평가
 
-1. Prediction  
+1. Prediction
+  
 |FEATURE|LSTM|DLINEAR|
 |:-----:|:-----:|:-----:|
 |판매량|0.038|0.031|
 |판매금액|0.168|0.094|
 |언급량|0.010|0.015|
 2. Domain Adaptaion  
+  
 |Pair of classification|not_DA|ADDA|ADDA + Reconstruction Loss|
 |:-----:|:-----:|:-----:|:-----:|
 |대분류 -> 중분류|0.499|0.464|0.439|
