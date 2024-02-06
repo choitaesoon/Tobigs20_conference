@@ -66,6 +66,21 @@ DA에서는 LSTM을 활용하여 모델을 새롭게 정의했습니다.
   2-5. MSELoss (+Reconstruction Loss)  
   2-6. Adam optimizer  
 
+## 평가
+
+1. Prediction
+|FEATURE|LSTM|DLINEAR|
+|:-----:|:-----:|:-----:|
+|판매량|0.038|0.031|
+|판매금액|0.168|0.094|
+|언급량|0.010|0.015|
+2. Domain Adaptaion
+|Pair of classification|not_DA|ADDA|ADDA + Reconstruction Loss|
+|:-----:|:-----:|:-----:|:-----:|
+|대분류 -> 중분류|0.499|0.464|0.439|
+|대분류 -> 소분류|0.257|0.255|0.243|
+|중분류 -> 소분류|0.417|0.0.401|0.400|
+
 
 ## 참고 자료
 https://today-1.tistory.com/60  
