@@ -40,6 +40,7 @@ DA에서는 LSTM을 활용하여 모델을 새롭게 정의했습니다.
   1-1. sales_cnt  
   1-2. sales_prc  
   1-3. brand_keyword_cnt  
+* 링크 : [DACON LG-Aimers](https://dacon.io/competitions/official/236129/codeshare)
 
 ### time_series model  
 1. LSTM  
