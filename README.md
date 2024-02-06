@@ -1,4 +1,6 @@
 # Tobigs20-conference
+
+(아직 정리가 안됨...)
 ## 도와줘 소상공인! : 신입 소상공인을 위한 시장 매력도 제공 서비스 :chart_with_upwards_trend: :chart_with_downwards_trend:
 
 투빅스 20기 Time_Series 프로젝트로 시장 매력도를 통해 소상공인을 도와주기 위한 상품 시계열 예측 프로젝트를 진행했습니다.
